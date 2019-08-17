@@ -47,6 +47,12 @@ namespace BethanysPieShop.Controllers
 
 
         }
+
+
+        public IActionResult About()
+        {
+            return View();
+        }
         
     }
 }
